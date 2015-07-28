@@ -70,5 +70,9 @@
 	 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 配置jsp路径的前缀 -->
+		<property name="prefix" value="/WEB-INF/jsp/"/>
+		<!-- 配置jsp路径的后缀 -->
+		<property name="suffix" value=".jsp"/>
 	</bean>
 </beans>

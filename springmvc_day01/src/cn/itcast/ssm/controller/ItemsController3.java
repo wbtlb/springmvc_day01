@@ -54,7 +54,7 @@ public class ItemsController3 {
 		// 相当 于request的setAttribut，在jsp页面中通过itemsList取数据
 		modelAndView.addObject("itemsList", itemsList);
 		// 指定视图
-		modelAndView.setViewName("/WEB-INF/jsp/items/itemsList.jsp");
+		modelAndView.setViewName("items/itemsList");
 
 		return modelAndView;
 	}
